@@ -1,0 +1,29 @@
+.container{
+    width: 100%;
+    padding: 1.5em 0;
+}
+
+.container > ul{
+    text-align: center;
+}
+
+.container > ul > li{
+    display: inline-block;
+    margin: 0 1em;
+}
+
+.container > ul > li > a{
+    display: block;
+
+    text-decoration: none;
+    color: var(--light);
+}
+
+.container > ul > li > a:hover{
+    color: var(--red);
+
+}
+
+.selected{
+    color: var(--red) !important;
+}
