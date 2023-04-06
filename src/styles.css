@@ -12,10 +12,18 @@
     padding: 0;
     box-sizing: border-box;
 
-    transition: 300ms ease;
+    /* transition: 300ms ease; */
 }
 
 body{
     background-color: var(--dark);
     color: var(--light);
+
+    overflow-x: hidden !important;
 }
+/* 
+@media (prefers-reduced-motion: no-preference){
+    *{
+        animation: none !important;
+    }
+} */

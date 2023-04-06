@@ -1,0 +1,28 @@
+.wrapper{
+    width: 120vw;
+    height: 100vh;
+}
+
+.bubbles{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bubble{
+    display: block;
+    position:relative;
+
+    background-color: var(--light);
+    opacity: 0.4;
+
+    border-radius: 50%;
+    margin: 10px;
+
+    transition: 300ms ease;
+}
+
+.bubble:hover{
+    transform: scale(1.1);
+}

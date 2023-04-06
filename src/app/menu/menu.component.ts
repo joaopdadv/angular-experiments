@@ -13,7 +13,7 @@ export class MenuComponent implements OnInit{
 
   home!: boolean;
   accordion!: boolean;
-  contato!: boolean;
+  bubble!: boolean;
 
   constructor(private location: Location){
 
@@ -28,14 +28,22 @@ export class MenuComponent implements OnInit{
         case '#/home':
           this.home = true;
           this.accordion = false;
+          this.bubble = false;
           break;
         case '':
           this.home = true;
           this.accordion = false;
+          this.bubble = false;
           break;
         case '#/accordion':
           this.home = false;
           this.accordion = true;
+          this.bubble = false;
+          break;
+        case '#/bubbles':
+          this.home = false;
+          this.accordion = false;
+          this.bubble = true;
           break;
         default:
           break;
