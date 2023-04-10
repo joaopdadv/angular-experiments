@@ -9,6 +9,7 @@ import { AccordionComponentComponent } from './accordion/accordion-component/acc
 import { HomePageComponent } from './home/home-page/home-page.component';
 import { MenuComponent } from './menu/menu.component';
 import { BubbleHoverComponent } from './bubble/bubble-hover/bubble-hover.component';
+import { PokerPageComponent } from './poker/poker-page/poker-page.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { BubbleHoverComponent } from './bubble/bubble-hover/bubble-hover.compone
     AccordionComponentComponent,
     HomePageComponent,
     MenuComponent,
-    BubbleHoverComponent
+    BubbleHoverComponent,
+    PokerPageComponent
   ],
   imports: [
     BrowserModule,
