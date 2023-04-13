@@ -58,3 +58,9 @@
 .show{
     display: flex !important;
 }
+
+@media (max-width: 600px) {
+    .wrapper{
+        width: 90%;
+    }
+}

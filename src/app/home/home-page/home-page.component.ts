@@ -33,5 +33,4 @@ export class HomePageComponent implements OnInit{
   toggleLogin(){
     this.login = !this.login;
   }
-
 }
