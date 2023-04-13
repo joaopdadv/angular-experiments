@@ -1,1 +1,18 @@
-<p>home-page works!</p>
+<div class="wrapper">
+    <div class="login" [ngClass]="{'show': login}" [@valueChanged]="login">
+        <div class="left-login left red">
+            <h1>Login Form</h1>
+        </div>
+        <div class="right-login right white" (click)="toggleLogin()">
+            <h1>Login Text</h1>
+        </div>
+    </div>
+    <div class="create" [ngClass]="{'show': !login}" [@valueChanged]="login">
+        <div class="left-create left white" (click)="toggleLogin()">
+            <h1>Create Text</h1>
+        </div>
+        <div class="right-create right red">
+            <h1>Create Form</h1>
+        </div>
+    </div>
+</div>
